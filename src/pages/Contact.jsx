@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className="my-16 px-8 w-full flex justify-center">
-      <div className="w-max max-w-4xl flex flex-col space-y-8">
+    <div className="px-8 w-full flex justify-center">
+      <div className="my-16 w-max max-w-4xl flex flex-col space-y-8">
         <section className="w-full flex flex-col justify-center space-y-4">
           {/* @TODO: Center this h2!! */}
           <h2 className="text-2xl lg:text-5xl font-semibold w-max mx-auto">
