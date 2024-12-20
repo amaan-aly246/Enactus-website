@@ -8,3 +8,21 @@
     font-weight: 900;
     src: local(''), url('https://fonts.cdnfonts.com/s/115491/Moderniz.woff') format('woff');
 }
+
+/* Change scrollbar color to enactus Yellow */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFBF10;
+    /* Change the color */
+    border-radius: 4px;
+    /* Round the corners */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c4c4c4;
+    /* Color of the scrollbar background */
+}
