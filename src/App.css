@@ -14,7 +14,8 @@
 /* Change scrollbar color to enactus Yellow */
 
 /* CHROME, SAFARI */
-::-webkit-scrollbar {
+
+/*::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -22,14 +23,19 @@
   border-radius: 4px;
 }
 ::-webkit-scrollbar-track {
-  /* transparent */
-  /* will work when content is not full width */
   background-color: #f3f8f200;
 }
+*/
 
 /* FIREFOX */
 /* For Firefox */
-html {
-  scrollbar-width: auto; /* Scrollbar width */
-  scrollbar-color: #ffbf10 #f3f8f200; /* Thumb and track colors */
+
+/*html {
+  scrollbar-width: auto; 
+  scrollbar-color: #ffbf10 #f3f8f200; 
+*/
+
+::-webkit-scrollbar{
+  display: none;
+  /*hides vertical scrollbar*/
 }
