@@ -2,7 +2,7 @@
   "projects": [
     {
       "color": "#3CB043",
-      "image": "/images/enacLogo.jpg",
+      "image": "images/logos/annotsav.jpg",
       "name": "Annotsav",
       "text": "Annotsav is an innovative initiative by Enactus NSUT aimed at revolutionizing both agriculture and personal gardening practices. We address challenges like water scarcity and inefficient irrigation for farmers. We also offer customized table pots with select plants, designed to enhance study tables and creative workspaces. Additionally, we produce in-house fertilizer balls to support plant health. Our mission is to enhance agricultural productivity, promote environmental conservation, and improve the livelihoods of farming communities"
     },
@@ -20,9 +20,9 @@
     },
     {
       "color": "#DE5D83",
-      "image": "/images/YellowBG.png",
-      "name": "Project",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque minima autem aperiam deserunt doloremque, eligendi velit numquam cupiditate nulla, voluptas vel repellendus enim, architecto perspiciatis sed quas earum aspernatur."
+      "image": "/images/logos/Clair logo (2).jpg",
+      "name": "Clair",
+      "text": "Clair is a project by Enactus NSUT that aims to provide a sustainable solution to the problem of air pollution. We have developed a range of air purifying plants that are not only aesthetically pleasing but also effective in removing harmful pollutants from the air. Our plants are grown in a hydroponic system, which uses 90% less water than traditional soil-based farming. We also offer a range of plant-based air purifiers that are designed to improve indoor air quality and promote a healthier lifestyle."
     }
   ]
 }
