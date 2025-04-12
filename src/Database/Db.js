@@ -1,90 +1,88 @@
 export const Presidents = [
     {
-      name: "Amitoj Singh",
-      image:"/Heads/amitbhoj.jpg",
+      name: "Kirtan Gupta",
+      image:"/Heads/kirtan.JPG",
       position:"top"
     },
     {
-      name: "Prince Gupta",
-      image:"/Heads/prince.jpg",
+      name: "Garv Mittal",
+      image:"/Heads/garv.jpg",
       position:"bottom"
     }
   ];
   export const VicePresidents = [
     {
-      name: "Krish Chawla",
-      image:"/Heads/krish.jpg",
+      name: "Medhaansh Juneja",
+      image:"/Heads/medhaansh.HEIC",
       position:"center"
     },
     {
-      name: "Siddharth Bhatia",
-      image:"/Heads/Siddhart.png",
+      name: "Aman Malhotra",
+      image:"/Heads/aman.jpg",
+      position:"center"
+    },
+    {
+      name: "Aditi Gupta",
+      image:"/Heads/aditi.jpg",
       position:"top"
+    },
+    {
+      name: "Samarth Agnihotri",
+      image:"/Heads/samarth.JPG",
+      position:"top"
+    },
+  ];
+  export const DirectorFinance  = [
+    {
+      name: "Shivam Nerula",
+      image:"/Heads/shivam.jpg",
+      position:"center"
     }
   ];
-  export const ExecutiveDirectors  = [
+  export const Collaboration  = [
     {
-      name: "Shikhar Varshney",
-      image:"/Heads/Shikar.jpg",
-      position:"bottom"
-    },
-    {
-      name: "Raghav Saini",
-      image:"/Heads/Raghav.jpg",
-      position:"center"
-    },{
-      name: "Agastya",
-      image:"/Heads/Agastya.png",
-      position:"top"
-    },
-    {
-      name: "Arsh Poddar",
-      image:"/Heads/arsh.jpeg",
-      position:"top"
-    }
-  ];
-  export const Directors  = [
-    {
-      name: "Anant Raj",
-      image:"/Heads/anant.jpg",
-      position:"center"
-    },
-    {
-      name: "Ishita Garg",
-      image:"/Heads/isihita.jpg",
+      name: "Kunjal Das",
+      image:"/Heads/kunjal.jpg",
       position:"center"
     }
   ];
   export const Technical  = [
     {
-      name: "Naman Dureja",
-      image:"/Heads/Naman.jpeg",
+      name: "Amaan Ali",
+      image:"/Heads/amaan.jpeg",
       position:"center"
     },
     {
-      name: "Kushagra Lakhwani",
-      image:"/Heads/kushargra.png",
+      name: "Samridhi Nasa",
+      image:"/Heads/samridhi.jpg",
       position:"bottom"
     }
   ];
   export const Design  = [
     {
-      name: "Rishita Gupta",
-      image:"/Heads/Rishita.jpg",
+      name: "Priyanshu Gupta",
+      image:"/Heads/priyanshu.jpg",
       position:"center"
     }
   ];
-  export const GeneralSecretary  = [
+  export const Rnd  = [
     {
-      name: "Prabhav Chandra Rajput",
-      image:"/Heads/prabhav.jpg",
+      name: "Jatin Dadwani",
+      image:"/Heads/jatin.jpg",
       position:"center"
     }
   ];
-  export const Secretary  = [
+  export const Promotions  = [
     {
-      name: "Kartik Rai",
-      image:"/Heads/kartik.jpg",
+      name: "Taniya Maheshwari",
+      image:"/Heads/taniya.jpg",
+      position:"center"
+    }
+  ];
+  export const Operations  = [
+    {
+      name: "Ayush Kumar",
+      image:"/Heads/ayush.jpg",
       position:"center"
     }
   ];

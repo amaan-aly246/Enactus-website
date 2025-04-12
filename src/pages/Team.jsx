@@ -1,12 +1,13 @@
 import React from "react";
 import {Presidents} from "../Database/Db.js";
 import {VicePresidents} from "../Database/Db.js";
-import {ExecutiveDirectors} from "../Database/Db.js";
-import {Directors} from "../Database/Db.js";
+import {DirectorFinance} from "../Database/Db.js";
+import {Collaboration} from "../Database/Db.js";
 import {Technical} from "../Database/Db.js";
 import {Design} from "../Database/Db.js";
-import { GeneralSecretary } from "../Database/Db.js";
-import { Secretary } from "../Database/Db.js";
+import { Rnd } from "../Database/Db.js";
+import { Promotions } from "../Database/Db.js";
+import { Operations } from "../Database/Db.js";
 import Card from "../components/Card.jsx";
 
 const Imagecard=({props})=>{
@@ -16,6 +17,7 @@ const Imagecard=({props})=>{
               ))}
           </div>);
 }
+
 const Titlename=({props})=>{
   return (<div
   className=" text-center font-moderniz h-auto flex justify-center items-center text-4xl md:text-5xl lg:text-8xl"
@@ -39,12 +41,13 @@ const Team = () => {
       </div>
       <PostCard title="Presidents" data={Presidents}/>
       <PostCard title="Vice Presidents" data={VicePresidents}/>
-      <PostCard title="Executive Directors" data={ExecutiveDirectors}/>
-      <PostCard title="Directors" data={Directors}/>
-      <PostCard title="Technical Directors" data={Technical}/>
+      <PostCard title="Finance Director" data={DirectorFinance}/>
+      <PostCard title="Collaboration Director" data={Collaboration}/>
+      <PostCard title="Technical Director" data={Technical}/>
       <PostCard title={<span>Design <br /> Director</span>} data={Design}/>
-      <PostCard title="General Secretary" data={GeneralSecretary}/>
-      <PostCard title="Secretary" data={Secretary}/>
+      <PostCard title="RND Director" data={Rnd}/>
+      <PostCard title="Promotion Director" data={Promotions}/>
+      <PostCard title="Operations Director" data={Operations}/>
 
     </div>
   );
